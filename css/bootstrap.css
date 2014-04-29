@@ -2081,6 +2081,10 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
+/*
+  background-color: #428bca;
+  border-color: #357ebd;
+*/
   background-color: #428bca;
   border-color: #357ebd;
 }
@@ -4366,18 +4370,27 @@ a.list-group-item.active > .badge,
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: inherit;
   background-color: #eee;
+  background-image: url(../image/topimage.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 .jumbotron h1,
 .jumbotron .h1 {
+  /*
   color: inherit;
+  */
+  margin-left: 15px;
+  color: white;
 }
 .jumbotron p {
   margin-bottom: 15px;
+  margin-left: 15px;
   font-size: 21px;
   font-weight: 200;
+  color: white;
 }
 .container .jumbotron {
   border-radius: 6px;
@@ -4391,8 +4404,8 @@ a.list-group-item.active > .badge,
     padding-bottom: 48px;
   }
   .container .jumbotron {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -4401,7 +4414,7 @@ a.list-group-item.active > .badge,
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 10px;
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -5783,3 +5796,18 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* add */
+/*
+.topimage {
+  background-image: url(../image/topimage.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+*/
+
+.copyright{
+    text-align:center;
+    margin:0.5em auto;
+    display:block;
+}
