@@ -1,2 +1,2 @@
-tanakaxxxx.github.com
+tanakaxxxx.github.io/
 =====================
